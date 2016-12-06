@@ -22,3 +22,14 @@ Method:
 
 Undo a merge
 ============
+When you attempt to use the 'reverse a commit' method to undo a merge, you'll get the following error:
+    git -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=sourcetree revert --no-edit 238776da23c11151cd4181a6944352f0418ceb1f
+    error: Commit 238776da23c11151cd4181a6944352f0418ceb1f is a merge but no -m option was given.
+    fatal: revert failed
+    Completed with errors, see above'
+Resolution: Follow the technique here: http://stackoverflow.com/questions/35652427/git-reverse-commit-a-pushed-merge-in-sourcetree
+
+
+Undo a merge ()
+============
+You can use the technique described in 'Reset a branch to a commit' to reverse a merge and discard the commit history.
