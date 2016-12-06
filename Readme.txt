@@ -33,3 +33,4 @@ Resolution: Follow the technique here: http://stackoverflow.com/questions/356524
 Undo a merge ()
 ============
 You can use the technique described in 'Reset a branch to a commit' to reverse a merge and discard the commit history.
+If you pushed to the remote, you may need to follow: http://stackoverflow.com/questions/35652427/git-reverse-commit-a-pushed-merge-in-sourcetree
