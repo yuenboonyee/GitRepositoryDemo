@@ -14,6 +14,7 @@
 		F62572721DF75984007EFFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62572701DF75984007EFFE1 /* LaunchScreen.storyboard */; };
 		F625727A1DF759D2007EFFE1 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F62572791DF759D2007EFFE1 /* Readme.txt */; };
 		F625727E1DF75AA4007EFFE1 /* BranchAFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = F625727D1DF75AA4007EFFE1 /* BranchAFile.txt */; };
+		F62572801DF75AEA007EFFE1 /* FileThatShouldntBeCommitted.txt in Resources */ = {isa = PBXBuildFile; fileRef = F625727F1DF75AEA007EFFE1 /* FileThatShouldntBeCommitted.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F62572731DF75984007EFFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62572791DF759D2007EFFE1 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		F625727D1DF75AA4007EFFE1 /* BranchAFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BranchAFile.txt; sourceTree = "<group>"; };
+		F625727F1DF75AEA007EFFE1 /* FileThatShouldntBeCommitted.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FileThatShouldntBeCommitted.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				F625727D1DF75AA4007EFFE1 /* BranchAFile.txt */,
+				F625727F1DF75AEA007EFFE1 /* FileThatShouldntBeCommitted.txt */,
 				F62572791DF759D2007EFFE1 /* Readme.txt */,
 				F62572661DF75984007EFFE1 /* GitRepositoryDemo */,
 				F62572651DF75984007EFFE1 /* Products */,
@@ -131,6 +134,7 @@
 			files = (
 				F62572721DF75984007EFFE1 /* LaunchScreen.storyboard in Resources */,
 				F625726F1DF75984007EFFE1 /* Assets.xcassets in Resources */,
+				F62572801DF75AEA007EFFE1 /* FileThatShouldntBeCommitted.txt in Resources */,
 				F625727E1DF75AA4007EFFE1 /* BranchAFile.txt in Resources */,
 				F625727A1DF759D2007EFFE1 /* Readme.txt in Resources */,
 				F625726D1DF75984007EFFE1 /* Main.storyboard in Resources */,
