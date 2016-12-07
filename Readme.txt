@@ -28,7 +28,8 @@ When you attempt to use the 'reverse a commit' method to undo a merge, you'll ge
     fatal: revert failed
     Completed with errors, see above'
 Resolution: Follow the technique here: http://stackoverflow.com/questions/35652427/git-reverse-commit-a-pushed-merge-in-sourcetree
-
+In summary, you need to use a Terminal command to revert a merge.
+Command: git revert -m 1 [copy-paste-the-id-of-the-merge-commit-here]
 
 Undo a merge by resetting to a commit
 =====================================
@@ -41,3 +42,4 @@ When you've already pushed the changes to the remote, and'you try to use git to 
 Need to use: git push origin NAME_OF_BRANCH --force
     E.g. 'git push origin branchA --force'
 This forces the remote to accept the local changes.
+
